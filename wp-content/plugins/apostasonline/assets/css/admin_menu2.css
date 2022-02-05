@@ -1,0 +1,123 @@
+#collapse-menu { 
+    display:none; 
+}
+#adminmenu, #adminmenu .wp-submenu, #adminmenuback, #adminmenuwrap {
+    width: 250px!important;
+    height: 100%;
+}
+#wpcontent, #wpfooter {
+    margin-left: 285px!important;
+}
+#wpfooter p {
+    display: none;
+}
+#adminmenu li.current a.menu-top {
+    background: #098446;
+    padding-bottom: 3px;
+    font-weight: 400;
+}
+#adminmenu li.menu-top:hover, #adminmenu li.opensub>a.menu-top, #adminmenu li>a.menu-top:focus {
+    background-color: #098446;
+    color: #ffffff;
+}
+.logo-box p {
+    color: #fff;
+    font-size: 15px;
+    font-weight: 500;
+    margin: 0;
+    text-transform: uppercase;
+}
+.logo-box {
+    display: flex;
+    text-align: center;
+    padding: 0;
+    padding-bottom: 0;
+    position: absolute;
+    width: 75%;
+    top: 10px;
+    left: 2vw;
+    justify-content: center;
+}
+div#adminmenuwrap {
+    background: linear-gradient(45deg, #cbd801, #34b149);
+}
+.logo-box img {
+    width: 45px;
+    padding-bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+ul#adminmenu {
+    position: absolute;
+    bottom: 0;
+    height: 82%;
+    background: transparent;
+}
+.profile-wallet,
+.profile-bets {
+    text-transform: unset!important;
+    font-weight: 400!important;
+}
+#adminmenuwrap h3 {
+    text-align: center;
+    color: #096484;
+    margin: 0;
+    font-size: 14px;
+    transform: translateY(15px);
+    position: absolute;
+    width: 100%;
+    padding-top: 7px;
+    padding-bottom: 5px;
+}
+#adminmenu, #adminmenu .wp-submenu, #adminmenuback, #adminmenuwrap {
+    background-color: #098446;
+}
+#adminmenu .wp-menu-image img {
+    width: 20px!important;
+    transform: translateY(-1.5px);
+    opacity: 1;
+}
+.profile-box {
+    float: left;
+    margin-top: 0px;
+    margin-right: 11px;
+}
+.logo-box.dash-profile h3 {
+    cursor: pointer;
+    padding-left: 11px;
+}
+.remodal-overlay {
+    background: #098446!important;
+}
+.logo-box.dash-profile h3:hover {
+    border: 1px solid #098446;
+    padding-top: 6px!important;
+}
+.profile-box img {
+    width: 65px;
+    padding-bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.logo-box.dash-profile h3 p {
+    font-size: 14px;
+    text-align: left;
+    line-height: 1.6;
+}
+ul#adminmenu>li.current>a.current:after {
+    display: none;
+}
+#adminmenu .wp-submenu {
+    left: 250px;
+}
+.wp-menu-name {
+    color: #fff;
+}
+#adminmenu li a:focus div.wp-menu-image:before, #adminmenu li.opensub div.wp-menu-image:before, #adminmenu li:hover div.wp-menu-image:before {
+    color: #fff
+}
+
+#adminmenu div.wp-menu-image:before{
+    color: #fff;
+}

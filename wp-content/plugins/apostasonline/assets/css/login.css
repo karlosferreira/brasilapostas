@@ -1,0 +1,71 @@
+#login h1 a, .login h1 a {
+    background-image: url('https://seeklogo.com/images/B/bandeira-do-brasil-logo-B6E7F208FF-seeklogo.com.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    width: 120px;
+    border-radius: 21px;
+    pointer-events: none;
+    margin-bottom: 7px;
+}
+#login h1 a, .login h1 p {
+    color: #fff;
+}
+#loginform .submit #wp-submit {
+    width: 100%;
+    padding: 2.5px;
+    margin-top: 14px;
+    background: #0d6d8f;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+    border-color: #0d6d8f;
+}		
+body.login {
+    background: #fff;
+    background-repeat: no-repeat;
+    background-position: -25% 100%;
+    background-size: 72% 100%;
+    overflow: hidden;
+    background-image:url('https://www.estudopratico.com.br/wp-content/uploads/2019/01/esportes-ingles.jpg');	
+}
+#login {
+    display: table;
+    width: 35%!important;
+    height: 100%;
+    float: right;
+    padding: 4% 0 0!important;
+    background: linear-gradient( 45deg, green, yellow);
+}
+#login_error {
+    color: #fff;
+    position: absolute;
+    bottom: -20px;
+    background: #dc3232!important;
+    width: 100%;
+}		
+.login #nav {
+    display: none;
+}
+#backtoblog {
+    display: none;
+}
+#loginform {
+    width: 55%;
+    margin-left: auto;
+    margin-right: auto;
+    background: #fff;
+    color: #000;
+    font-weight: 600;
+}		
+.login label {
+    margin-bottom: 7px;   
+}
+.login form {
+    padding: 14px 14px 21px;
+    border-radius: 7px;
+    border: none!important;
+    box-shadow: none!important;
+    margin-top: 25px!important;
+}
